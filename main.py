@@ -22,8 +22,8 @@ def takeCommand():
 
 if __name__ == "__main__":
     while True:
-        statement = input().lower()
-        # statement = takeCommand().lower()
+        # statement = input().lower() # Input
+        statement = takeCommand().lower() # Voice
         if statement == "0":
             continue
 
