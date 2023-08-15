@@ -3,7 +3,7 @@ from pyttsx3 import speak
 import datetime
 
 BASEURL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "f277a9d4df9e110004d77b7988bd14d7"
+API_KEY = "REPLACEWITHYOUROWNKEY"
 
 
 def kelv_to_cel_fahrentheit(kelvin):
