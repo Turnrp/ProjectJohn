@@ -1,6 +1,5 @@
 from genericpath import samestat
 from os import stat
-import numpy as np
 from pyttsx3 import speak
 import speech_recognition as sr
 import math
