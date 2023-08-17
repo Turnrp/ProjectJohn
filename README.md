@@ -5,28 +5,27 @@ If you wanna create your module I made two modules that create basic or custom m
 
 To use The Hey John Module you will need an Open AI API Key and it will cost money unless you still have the free trial.
 
-## Instructions
+# Instructions
 1. Make sure you have Python and at least 1 module installed
 2. Make sure the modules are in the folder "Modules"
 3. Make sure you have all of the requirements installed
 4. To use a module you have to use its name in a sentence the use the syntax after
 
-## How to install pip and the requirements
+# How to install pip and the requirements
 Click <a href="https://www.geeksforgeeks.org/how-to-install-pip-on-windows/">here</a> to learn how to install pip <br />
 Then do the command "pip install -r requirements.txt" in the same directory of requirements.txt
 
-## Examples
+# Examples
 Say "Calculate 1 plus 1" <br />
 Response: "The sum of 1 plus 1 is 2"
 
-# How To Create A Module
-## Basic Modules
+# Create Basic Modules
 Say "new basic module <NAME>" <br />
 Open the file <NAME>.py in an IDE of your choice <br />
 Under the run, function add whatever you want this module todo <br />
 See <a href="https://github.com/Turnrp/ProjectJohn/blob/main/Modules/translate.py">translate.py</a>
 
-## Custom Modules
+# Create Custom Modules
 Say "new custom module <NAME>" <br />
 Open the file <NAME>.py in an IDE of your choice <br />
 Under any function name, add whatever you want under it <br />
