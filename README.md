@@ -6,17 +6,17 @@ If you wanna create your module I made two modules that create basic or custom m
 To use The Hey John Module you will need an Open AI API Key and it will cost money unless you still have the free trial.
 
 ## Instructions
-1. Make sure you have Python and at least 1 module installed
-2. Make sure the modules are in the folder "Modules"
-3. Make sure you have all of the requirements installed
-4. To use a module you have to use its name in a sentence the use the syntax after
+1. Make sure you have Python and at **least** 1 module installed
+2. Make sure the modules are in the folder **"Modules"**
+3. Make sure you have all of the **requirements** installed
+4. To use a module you have to use its name in a sentence the use the **syntax** after
 
 ## How To Install Pip
-Go to this <a href="https://bootstrap.pypa.io/get-pip.py">site</a> and press CTRL + S and save it somewhere you will remember then either double click it or if you wanna be cool hacker man in Command Prompt run the below command in the same directory as the file 
+Go to this <a href="https://bootstrap.pypa.io/get-pip.py">site</a> and press **CTRL + S** and save it somewhere you will remember then either **double click** it or if you wanna be a cool hacker man in Command Prompt run the below command in the same directory as the file 
 ```
 python get-pip.py
 ```
-Then run the below command after you installed and restarted your pc in the same directory of requirements.txt
+Then run the **below command** after you installed and restarted your pc in the same directory of **requirements.txt**
 ```
 pip install -r requirements.txt
 ```
