@@ -12,18 +12,18 @@ To use The Hey John Module you will need an Open AI API Key and it will cost mon
 4. To use a module you have to use its name in a sentence the use the syntax after
 
 ## Examples
-Say "Calculate 1 plus 1"
+Say "Calculate 1 plus 1" <br />
 Response: "The sum of 1 plus 1 is 2"
 
 # How To Create A Module
 ## Basic Modules
-Say "new basic module <NAME>"
-Open the file <NAME>.py in an IDE of your choice
-Under the run, function add whatever you want this module todo
+Say "new basic module <NAME>" <br />
+Open the file <NAME>.py in an IDE of your choice <br />
+Under the run, function add whatever you want this module todo <br />
 See <a href="https://github.com/Turnrp/ProjectJohn/blob/main/Modules/translate.py">translate.py</a>
 
 ## Custom Modules
-Say "new custom module <NAME>"
-Open the file <NAME>.py in an IDE of your choice
-Under any function name, add whatever you want under it
+Say "new custom module <NAME>" <br />
+Open the file <NAME>.py in an IDE of your choice <br />
+Under any function name, add whatever you want under it <br />
 See <a href="https://github.com/Turnrp/ProjectJohn/blob/main/Modules/music.py">music.py</a>
