@@ -1,0 +1,7 @@
+SpeechRecognition
+pyttsx3
+requests
+openai
+pynput
+datetime
+pytube
