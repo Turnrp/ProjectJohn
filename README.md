@@ -12,7 +12,7 @@ To use The Hey John Module you will need an Open AI API Key and it will cost mon
 4. To use a module you have to use its name in a sentence the use the syntax after
 
 ## How To Install Pip
-Go to this <a href="https://bootstrap.pypa.io/get-pip.py">site</a> and press CTRL + S and save it somewhere you will remember then in Command Prompt run the below command in the same directory as the file 
+Go to this <a href="https://bootstrap.pypa.io/get-pip.py">site</a> and press CTRL + S and save it somewhere you will remember then either double click it or if you wanna be cool hacker man in Command Prompt run the below command in the same directory as the file 
 ```
 python get-pip.py
 ```
