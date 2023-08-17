@@ -12,7 +12,7 @@ To use The Hey John Module you will need an Open AI API Key and it will cost mon
 4. To use a module you have to use its name in a sentence the use the syntax after
 
 ## How to install pip and the requirements
-<a href="https://www.geeksforgeeks.org/how-to-install-pip-on-windows/">How to install pip</a> <br />
+Click <a href="https://www.geeksforgeeks.org/how-to-install-pip-on-windows/">here</a> to learn how to install pip <br />
 Then do the command "pip install -r requirements.txt" in the same directory of requirements.txt
 
 ## Examples
