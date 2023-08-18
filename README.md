@@ -25,10 +25,6 @@ Then run the **below command** after you installed and restarted your pc in the 
 pip install -r requirements.txt
 ```
 
-## Examples
-Say "Calculate 1 plus 1" <br />
-Response: "The sum of 1 plus 1 is 2"
-
 ## Create Basic Modules
 Say "new basic module <NAME>" <br />
 Open the file <NAME>.py in an IDE of your choice <br />
