@@ -34,7 +34,6 @@ def divide(math):
     print(Final)
     speak(Final)
 
-
 # Setup For Custom (This is the only way so far for custom modules without having to say "cat fact run" but I can add some stuff in the future)
 from sys import argv
 
@@ -50,7 +49,7 @@ def call_function(function_name, math):
 
 if __name__ == "__main__":
     if len(argv) < 3:
-        print("Usage: script2.py run <function> <math>")
+        print("Usage: script2.py run <function> <add, subtract, multiply, divide>")
     else:
         function_name = argv[2].split(" ")[0]
         math = argv[2].replace(argv[2].split(" ")[0] + " ", "", 1)
