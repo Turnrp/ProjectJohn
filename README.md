@@ -1,7 +1,11 @@
 # ProjectJohn
-This is a modular voice assistant. Updates Soon!
+This is a **modular** voice assistant. Updates Soon!
 
 If you wanna create your module I made two modules that create basic or custom modules a basic module just runs a function named run and custom modules will execute other function names
+
+```
+create basic/custom module <NAME>
+```
 
 To use The Hey John Module you will need an Open AI API Key and it will cost money unless you still have the free trial.
 
