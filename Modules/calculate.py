@@ -1,24 +1,21 @@
 from pyttsx3 import speak
 
 
-def add(math):
-    math = math.split(" ")
+def plus(math):
     Sum = int(math[0]) + int(math[1])
     Final = "The sum of " + math[0] + " plus " + math[1] + " is " + str(Sum)
     print(Final)
     speak(Final)
 
 
-def subtract(math):
-    math = math.split(" ")
+def minus(math):
     Sum = int(math[0]) - int(math[1])
     Final = "The difference of " + math[0] + " minus " + math[1] + " is " + str(Sum)
     print(Final)
     speak(Final)
 
 
-def multiply(math):
-    math = math.split(" ")
+def multipliedby(math):
     Sum = int(math[0]) * int(math[1])
     Final = (
         "The product of " + math[0] + " multiplied by " + math[1] + " is " + str(Sum)
@@ -27,12 +24,12 @@ def multiply(math):
     speak(Final)
 
 
-def divide(math):
-    math = math.split(" ")
+def dividedby(math):
     Sum = int(math[0]) / int(math[1])
     Final = "The quotion of " + math[0] + " divided by " + math[1] + " is " + str(Sum)
     print(Final)
     speak(Final)
+
 
 # Setup For Custom (This is the only way so far for custom modules without having to say "cat fact run" but I can add some stuff in the future)
 from sys import argv
@@ -49,11 +46,13 @@ def call_function(function_name, math):
 
 if __name__ == "__main__":
     if len(argv) < 3:
-        print("Usage: script2.py run <function> <add, subtract, multiply, divide>")
+        print("Usage: script2.py run <function> <num> <math> <num>")
     else:
-        function_name = argv[2].split(" ")[0]
-        math = argv[2].replace(argv[2].split(" ")[0] + " ", "", 1)
-        print(math)
-        for i in ["and", "with"]:  # Remove directing variables
-            math = math.replace(i + " ", "")
+        argv_split = argv[2].split(" ")
+        if len(argv_split) > 3:
+            function_name = argv_split[1] + argv_split[2]
+            math = [argv_split[0], argv_split[3]]
+        else:
+            function_name = argv_split[1]
+            math = [argv_split[0], argv_split[2]]
         call_function(function_name, math)
