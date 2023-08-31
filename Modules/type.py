@@ -4,14 +4,16 @@ from time import sleep
 keyboard = Controller()
 
 
+def replace_ending(sentence, old, new):
+    if sentence.endswith(old):
+        return sentence[: -len(old)] + new
+    return sentence
+
+
 def run(statement: str):
-    enter = False
-    if statement.endswith(" enter"):
-        statement = statement[:-6]
-        enter = True
+    statement = replace_ending(statement, " entered", "\n")
+    statement = replace_ending(statement, " enter", "\n")
     keyboard.type(statement)
-    if enter:
-        keyboard.type("\n")
 
 
 # Setup
