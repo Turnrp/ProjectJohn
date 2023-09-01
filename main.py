@@ -23,8 +23,8 @@ def takeCommand():
 started = True
 if __name__ == "__main__":
     while True:
-        statement = input().lower()
-        # statement = takeCommand().lower()
+        # statement = input().lower()
+        statement = takeCommand().lower()
 
         if statement == "start":
             started = True
