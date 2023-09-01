@@ -20,11 +20,21 @@ def takeCommand():
         return statement
 
 
+started = True
 if __name__ == "__main__":
     while True:
-        # statement = input().lower() # Input
-        statement = takeCommand().lower() # Voice
-        if statement == "0":
+        statement = input().lower()
+        # statement = takeCommand().lower()
+
+        if statement == "start":
+            started = True
+            continue
+
+        if statement == 0 or not started:
+            continue
+
+        if statement == "stop":
+            started = False
             continue
 
         if statement == "load":
