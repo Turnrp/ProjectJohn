@@ -1,10 +1,18 @@
-from googletrans import Translator
+from googletrans import Translator, constants
 from pyttsx3 import speak
+
+language_list = [item for sublist in constants.LANGUAGES.items() for item in sublist]
 
 
 def run(statement):
     translator = Translator()
-    translated = translator.translate(statement, dest="en")
+    language = "english"
+    # print(language_list)
+    if statement.split(" ")[0] in language_list:
+        language = statement.split(" ")[0]
+        statement = statement.replace(language, "", 1)
+    # textLanguage = translator.detect(statement)
+    translated = translator.translate(statement, dest=language)
     print(statement, "->", translated.text)
     speak(translated.text)
 
