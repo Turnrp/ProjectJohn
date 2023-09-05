@@ -66,7 +66,7 @@ speak <ANY>
 ```
 ### Translate
 ```
-translate <ANY>
+translate <OPTIONAL: LANGUAGE=English> <ANY>
 ```
 ### Weather
 ```
