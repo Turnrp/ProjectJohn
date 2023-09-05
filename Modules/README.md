@@ -64,6 +64,10 @@ what is the value of the <NAME EX:broken emissary flag>
 ```
 speak <ANY>
 ```
+### Type
+```
+type <ANY>
+```
 ### Translate
 ```
 translate <OPTIONAL: LANGUAGE=English> <ANY>
